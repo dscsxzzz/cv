@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>My CV</title>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Andrii Krechuniak</h1>
+    </header>
+    <nav>
+      <ul class="nav_list">
+        <li>
+          <a
+            href=""
+            id="nav_list1"
+            class="active"
+            type="button"
+            onclick="changeClass('nav_list1')"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href=""
+            id="nav_list2"
+            class="non"
+            type="button"
+            onclick="changeClass('nav_list2')"
+            >Info</a
+          >
+        </li>
+        <li>
+          <a
+            href=""
+            id="nav_list3"
+            class="non"
+            type="button"
+            onclick="changeClass('nav_list3')"
+            >Docs</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="content">
+      <aside>
+        <div class="info">
+          <h1>Info</h1>
+          <ul class="list_of_info">
+            <li><a href="#" class="list_item">games</a></li>
+            <li><a href="#" class="list_item">hobby</a></li>
+          </ul>
+        </div>
+      </aside>
+      <main>
+        <section>
+          <img
+            src="/img/photo.jpg"
+            alt="My Photo"
+            style="width: 260px; height: 300px"
+          />
+          <h1>Andrii Krechuniak, 18yo</h1>
+        </section>
+        <div class="main_info">
+          <h2>Education</h2>
+          <ul>
+            <li>School</li>
+            <li>UITM</li>
+            <li>GoIT</li>
+          </ul>
+          <h2>Programming Languages</h2>
+          <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>C++</li>
+          </ul>
+          <h2>Games I play</h2>
+          <ul>
+            <li>Dead Cells</li>
+            <li>CIV</li>
+            <li>Dota 2</li>
+          </ul>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <ul>
+        <li>
+          <a
+            href="https://www.instagram.com/justandrii"
+            class="list_item"
+            target="_blank"
+            >Instagram</a
+          >
+        </li>
+        <li>
+          <a
+            href="mailto:krechuniak.a@gmail.com"
+            class="list_item"
+            target="_blank"
+            >E-mail</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://steamcommunity.com/id/dscsxzzz/"
+            class="list_item"
+            target="_blank"
+            >Steam</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/dscsxzzz"
+            class="list_item"
+            target="_blank"
+            >GitHub</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/andrii-krechuniak-2a82b526a/"
+            class="list_item"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
